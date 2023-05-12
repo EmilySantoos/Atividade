@@ -1,0 +1,66 @@
+programa
+{
+	inclua biblioteca Util 
+
+	função inicio()
+	{
+		Inteiro VET[10], I, soma = 0, Media
+
+		escreva("Digite o primeiro número: ")
+		leia(numero[0])
+
+		escreva("Digite o segundo número: ")
+		leia(numero[1])
+
+		escreva("Digite o terceiro número: ")
+		leia(numero[2])
+
+		escreva("Digite o quarto número: ")
+		leia(numero[3])
+
+		escreva("Digite o quinto número: ")
+		leia(numero[4])
+
+		escreva("Digite o sexto número: ")
+		leia(numero[5])
+
+		escreva("Digite o sétimo número: ")
+		leia(numero[6])
+
+		escreva("Digite o oitavo número: ")
+		leia(numero[7])
+
+		escreva("Digite o nono número: ")
+		leia(numero[8])
+
+		escreva("Digite o décimo número: ")
+		leia(numero[9])
+		limpa()
+
+		escreva("Números armazenados, aguarde o resultado... ")
+    Util.aguarde(2000)) 
+		limpa()
+
+    escreva("Todos os números ímpares:\n")
+	     para(i = 1; i < 10; i+=2){
+	            escreva(vet[i], " ")
+	     }
+		escreva("\n\nTodos os números pares:\n")
+	     para(i = 0; i < 10; i++){ 
+	        	se(vet[i]%2==0){
+	        		escreva(vet[i], " ")
+	        	}     
+	     }
+		escreva("\n\nSoma de todos os vetores:\n")
+	     para(i = 0; i < 10; i++){	
+	      soma = soma + vet[i]
+	     }
+		escreva(soma, "\n\n")
+
+      média = soma/10
+
+		escreva("A média dos números é: ", media, "\n\n")		
+		escreva("Programa finalizando.\n")
+      Util.aguarde(2000)) 
+	}
+}
